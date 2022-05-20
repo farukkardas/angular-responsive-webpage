@@ -1,0 +1,40 @@
+mat-drawer {
+    width: 304px;
+    min-width: 304px;
+    position: fixed;
+    background-color: rgb(46, 46, 46);
+    border-radius: 1ch;
+    padding-top: 100px;
+}
+
+ul li {
+    height: 50px;
+    background-color: rgb(46, 46, 46);
+    padding-left: 2rem;
+    font-size: 22px;
+}
+
+.description{
+    flex: auto;
+    color: white;
+    font-style: italic;
+    padding-left: 15px;
+    font-family: monserrat;
+}
+
+ul li a {
+    color: white;
+    font-family: monserrat;
+    text-decoration: none;
+}
+
+mat-divider{
+    background: white;
+}
+
+@media screen and (max-width: 300px) {
+    mat-drawer {
+        width: 200px;
+        min-width: 200px;
+    }
+}

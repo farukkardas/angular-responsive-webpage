@@ -1,0 +1,69 @@
+body {
+    background-color: rgba(228, 228, 228, 0.842);
+    padding-top: 75px;
+    padding-bottom: 75px;
+    background-image: url(src/assets/img/background.png);
+    background-size: cover;
+}
+
+.title {
+    padding-top: 20px;
+    font-weight: 1000;
+    font-family: monserrat;
+    font-size: 40px;
+    color: rgb(160, 59, 255);
+    text-align: center;
+    line-height: 3rem;
+    text-shadow: 0 2px 2px rgb(160, 59, 255);
+}
+
+mat-form-field {
+    width: 100%;
+    font-family: monserrat;
+}
+
+.mat-raised-button {
+    font-family: monserrat;
+    font-weight: 600;
+    width: 100%;
+    background-color: rgb(160, 59, 255);
+}
+
+
+label {
+    font-family: ubuntu;
+    padding-bottom: 5px;
+    font-weight: 600;
+}
+
+.sub-title {
+    font-weight: 1000;
+    font-family: monserrat;
+    color: rgb(160, 59, 255);
+    text-align: center;
+    line-height: 3rem;
+    text-shadow: 0 0px 2px rgb(160, 59, 255);
+}
+
+.social-section a {
+    border: 2px solid;
+    color: rgb(160, 59, 255);
+}
+
+.our-team {
+    box-shadow: 0px 0px 10px rgb(160, 59, 255);
+    background: rgb(238, 238, 238);
+    border-radius: 10px;
+}
+
+.human{
+    font-family: monserrat;
+    font-weight: 600;
+}
+
+
+
+.contact-desc{
+    
+    font-style: italic;
+}

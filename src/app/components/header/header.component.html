@@ -1,0 +1,42 @@
+<nav class="navbar">
+    <div class="d-flex justify-content-center logo">
+        <i class="fa-brands fa-react"></i>
+        <a class="navbar-brand p-2" href="#">Alloria</a>
+    </div>
+    <button mat-raised-button *ngIf="isMobile" (click)="toggle()" class="toggle-button m-2">≡</button>
+    <ul *ngIf="!isMobile" class="nav p-2">
+        <li class="nav-item">
+            <a class="nav-link active" routerLink="">
+                <i class="fa fa-house"></i>
+                Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" routerLink='teams'>
+                <i class="fa fa-business-time"></i>
+                Teams</a>
+        </li>
+
+        <li ngbDropdown sort class="nav-item dropdown">
+            <a ngbDropdownToggle class="nav-link dropdown-toggle" data-toggle="dropdown" role="button"
+                aria-haspopup="true" aria-expanded="false"> <i class="fa-solid fa-bag-shopping"></i> Products</a>
+            <div ngbDropdownMenu class="dropdown-menu">
+                <a ngbDropdownItem class="dropdown-item" (click)="closeDropdown()" routerLink="human-resources">Human
+                    Resources</a>
+                <a ngbDropdownItem class="dropdown-item" (click)="closeDropdown()" routerLink="development">Development
+                    Solutions</a>
+                <a ngbDropdownItem class="dropdown-item" (click)="closeDropdown()" routerLink="arge">Arge
+                    Solutions</a>
+            </div>
+        </li>
+
+
+        <li class="nav-item">
+            <a class="nav-link active" routerLink='contact'>
+                <i class="fa-solid fa-square-phone"></i>
+                Contact</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active"></a>
+        </li>
+    </ul>
+</nav>

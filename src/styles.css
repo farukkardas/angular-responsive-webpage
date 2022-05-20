@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+@font-face {
+  font-family: monserrat;
+  src: url(src/assets/fonts/monserrat.ttf);
+}
+
+@font-face {
+  font-family: ubuntu;
+  src: url(src/assets/fonts/ubuntu.ttf);
+}
+
+html,
+body {
+  min-height: 100vh;
+  width: 100%;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  min-height: 100vh;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}

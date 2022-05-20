@@ -1,0 +1,67 @@
+a::-moz-selection {
+    color: white;
+    background: rgb(160, 59, 255);
+}
+
+a::selection {
+    color: white;
+    background: rgb(160, 59, 255);
+}
+
+.navbar {
+    width: 100%;
+    height: 64px;
+    background-color: rgb(160, 59, 255);
+    position: fixed;
+    box-shadow:  0px 0px 10px 0px rgba(0,0,0,1);
+    z-index: 1;
+
+}
+.navbar-brand {
+    color: white;
+    font-family: monserrat;
+}
+
+.dropdown-item{
+    font-family: monserrat;
+    font-weight: 600;
+}
+
+.logo i {
+    font-size: 26px;
+    padding-left: 20px;
+    padding-top: 3px;
+    color: white;
+}
+
+mat-form-field{
+    margin-bottom: 30px;
+}
+
+
+.nav-link {
+    color: white;
+    font-family: monserrat;
+}
+
+.toggle-button {
+    display: none;
+    background: white;
+    border-style: rgb(160, 59, 255);
+}
+
+
+li a {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 700px) {
+    .nav {
+        display: none;
+    }
+
+    .toggle-button {
+        display: inline;
+    }
+}

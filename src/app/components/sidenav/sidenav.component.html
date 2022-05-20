@@ -1,0 +1,16 @@
+<mat-drawer-container autosize>
+  <mat-drawer #drawer mode="side">
+   
+    <ul *ngFor="let element of data" class="list-group list-group-flush">
+      <li class="list-group-item p-3">
+        <a (click)="drawer.toggle()" [routerLink]="element.routerLink">
+          {{element.name}}
+        </a>
+      </li>
+      <mat-divider></mat-divider>
+      
+    </ul>
+  </mat-drawer>
+  <div class="example-sidenav-content">
+  </div>
+</mat-drawer-container>
